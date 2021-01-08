@@ -40,10 +40,10 @@
   </DataCollectionRunSettings>
   <!-- Parameters used by tests at runtime -->
   <TestRunParameters>
-    <Parameter name="OnlineUsername" value="" />
+    <Parameter name="OnlineUsername" value="alyousse@microsoft.com" />
     <Parameter name="OnlinePassword" value="" />
     <!-- OnlineUrl (https://make.powerapps.com , https://make.preview.powerapps.com) -->
-    <Parameter name="OnlineUrl" value=""  />
+    <Parameter name="OnlineUrl" value="https://make.powerapps.com"  />
     <!-- CloudIdentity,FederatedIdentity,PassThrough -->
     <Parameter name="LoginMethod" value=""  />
     <!-- Chrome,Firefox -->
@@ -51,7 +51,7 @@
     <Parameter name="DriversPath" value="" />
     <Parameter name="UsePrivateMode" value="true" />
     <Parameter name="ResultsDirectory" value="" />
-    <Parameter name="TestAutomationURLFilePath" value="" />
+    <Parameter name="TestAutomationURLFilePath" value="C:\Users\alyousse\source\repos\mip-d365-easyrepro\PowerAppsTestAutomation\Samples\Samples\TestAutomationURLs.json" />
     <Parameter name="TestMaxWaitTimeInSeconds" value="600" />
   </TestRunParameters>
   <!-- Adapter Specific sections -->

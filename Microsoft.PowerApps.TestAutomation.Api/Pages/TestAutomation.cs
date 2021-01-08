@@ -138,9 +138,9 @@ namespace Microsoft.PowerApps.TestAutomation.Api
             // Wait for fullscreen-app-host
             driver.WaitUntilVisible(By.Id("fullscreen-app-host"));
 
-            string sessionId = (string)driver.ExecuteScript("return Core.Telemetry.Log.sessionId");
+            //string sessionId = (string)driver.ExecuteScript("return Core.Telemetry.Log.sessionId");
 
-            return sessionId;
+            return "";
         }
 
         public Tuple<int, int> ReportResultsToDevOps(JObject jObject, int testRunNumber)
