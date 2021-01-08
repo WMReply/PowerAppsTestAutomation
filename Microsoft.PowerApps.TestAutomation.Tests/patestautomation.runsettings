@@ -40,7 +40,7 @@
   </DataCollectionRunSettings>
   <!-- Parameters used by tests at runtime -->
   <TestRunParameters>
-    <Parameter name="OnlineUsername" value="alyousse@microsoft.com" />
+    <Parameter name="OnlineUsername" value="" />
     <Parameter name="OnlinePassword" value="" />
     <!-- OnlineUrl (https://make.powerapps.com , https://make.preview.powerapps.com) -->
     <Parameter name="OnlineUrl" value="https://make.powerapps.com"  />

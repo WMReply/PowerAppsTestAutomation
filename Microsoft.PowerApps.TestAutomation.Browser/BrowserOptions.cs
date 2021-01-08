@@ -70,6 +70,7 @@ namespace Microsoft.PowerApps.TestAutomation.Browser
                 options.AddArgument("--user-agent=" + UserAgentValue);
             }
 
+            options.AddUserProfilePreference("profile.cookie_controls_mode", 0);
             return options;
         }
        

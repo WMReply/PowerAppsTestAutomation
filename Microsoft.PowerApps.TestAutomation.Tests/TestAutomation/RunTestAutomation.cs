@@ -9,6 +9,7 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using OpenQA.Selenium;
+using System.IO;
 
 namespace Microsoft.PowerApps.TestAutomation.Tests
 {
@@ -58,7 +59,7 @@ namespace Microsoft.PowerApps.TestAutomation.Tests
         {
             BrowserOptions options = RunTestSettings.Options;
             options.BrowserType = _browserType;
-            options.DriversPath = _driversPath;
+            options.DriversPath = (!String.IsNullOrEmpty(_driversPath)) ? _driversPath : Path.Combine(Directory.GetCurrentDirectory());
 
             using (var appBrowser = new PowerAppBrowser(options))
             {
